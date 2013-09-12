@@ -11,7 +11,7 @@ namespace ch7problems
         private string topping;
         private int diameter;
         private double price;
-
+       
         // Public properties that manipulate data variables
         public string Topping
         {
