@@ -47,7 +47,7 @@ namespace ch7problems
 
             set
             {
-                Price = 13.99;
+                price = 13.99;
             }
         }
     }

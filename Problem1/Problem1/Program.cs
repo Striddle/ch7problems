@@ -12,11 +12,11 @@ namespace ch7problems
             Pizza pizza = new Pizza();
             pizza.Topping = "pepperoni";
 
-            Pizza pizza = new Pizza();
-            pizza.Diameter = "12";
+            Pizza size = new Pizza();
+            size.Diameter = 12;
 
-            Pizza pizza = new Pizza();
-            pizza.Price = "13";
+            Pizza price = new Pizza();
+            price.Price = 13.99;
         }
     }
 }
