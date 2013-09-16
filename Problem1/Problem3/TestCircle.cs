@@ -5,15 +5,13 @@ using System.Text;
 
 namespace ch7problems
 {
-    class TestCircle
+    class Circle
     {
         // Private DATA variables
-        private string radius;
-        private string area;
-        private double diameter;
+        private double radius;
 
         // Public properties that manipulate data variables
-        public string Radius
+        public double Radius
         {
             get
             {
@@ -34,16 +32,11 @@ namespace ch7problems
             }
 
         }
-        public string Area
+        public double Area
         {
             get
             {
-                return area;
-            }
-
-            set
-            {
-                area = value;
+                return Math.PI * radius * radius;
             }
         }
     }

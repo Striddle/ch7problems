@@ -9,10 +9,11 @@ namespace ch7problems
     {
         static void Main(string[] args)
         {
-            Pizza pizza = new Pizza();
-            pizza.Topping = "pepperoni";
-            pizza.Diameter = 12;
-            pizza.Price = 13.99;
+            Circle circle = new Circle
+            
+            Circle.diameter = 4;
+            Circle.radius = 2;
+            Circle.area = 12.57;
         }
     }
 }
