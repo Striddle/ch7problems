@@ -9,6 +9,7 @@ namespace Problem5
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Scout.Motto);
         }
     }
 }

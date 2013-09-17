@@ -9,11 +9,14 @@ namespace ch7problems
     {
         static void Main(string[] args)
         {
-            Circle circle = new Circle
-            
-            Circle.diameter = 4;
-            Circle.radius = 2;
-            Circle.area = 12.57;
+            Circle circle = new Circle();
+            circle.Radius = 2;
+
+            Circle circle1 = new Circle();
+            circle.Radius = 4;
+
+            Circle circle2 = new Circle();
+            circle.Radius = 6;
         }
     }
 }
