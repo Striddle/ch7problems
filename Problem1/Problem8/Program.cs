@@ -9,6 +9,9 @@ namespace Problem8
     {
         static void Main(string[] args)
         {
+            School[] school = new School[5] ;
+        
+            for(int i=0; i
         }
     }
 }

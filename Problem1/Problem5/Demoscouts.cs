@@ -11,7 +11,7 @@ namespace Problem5
         private string name;
         private int troop;
         private double dues;
-        public static string Motto = "to obey the Girl Scout Law";
+        public static string Motto = "To Obey the Girl Scout Law";
 
         // Public properties that manipulate data variables
         public string Name

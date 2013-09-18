@@ -5,7 +5,46 @@ using System.Text;
 
 namespace Problem8
 {
-    class schoolsdemo
+    class School : IComparable
     {
+        private string schoolname;
+        private int enrollmentnumber;
+
+        public string SchoolName
+        {
+            get
+            {
+                return schoolname;
+            }
+            set
+            {
+                schoolname = value;
+            }
+        }
+
+        public int EnrollmentNumber
+        {
+            get
+            {
+                return enrollmentnumber;
+            }
+            set
+            {
+                enrollmentnumber = value;
+            }
+        }
+        public int IComparable.CompareTo(Object o)
+        {
+           int returnVal;
+           School temp = (School)o;
+           if (this.EnrollmentNumber > temp.SchoolName)
+               returnVal = 1;
+           else
+               if (this.EnrollmentNumber < temp.SchoolName)
+                   returnVal = -1;
+               else
+                   returnVal = 0;
+           return returnVal;
+        }
     }
 }
